@@ -1,0 +1,6 @@
+set1=set(map(int,input("Enter the values sepreted by space :").split()))
+ad=int(input("Enter element to add :"))
+rn=int(input("Enter element to remove :"))
+set1.add(ad)
+set1.remove(rn)
+print(set1)

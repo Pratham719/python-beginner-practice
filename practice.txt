@@ -1,0 +1,3 @@
+Hi everyone
+We are using file I/O
+I like python

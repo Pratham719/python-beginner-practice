@@ -1,0 +1,42 @@
+[
+    {
+        "Roll no": 1,
+        "Name": "pyt",
+        "Marks": {
+            "Physics": 67,
+            "Chemestry": 78,
+            "Maths": 78
+        },
+        "Attendance": 6
+    },
+    {
+        "Roll no": 2,
+        "Name": "yu",
+        "Marks": {
+            "Physics": 78,
+            "Chemestry": 89,
+            "Maths": 67
+        },
+        "Attendance": 3
+    },
+    {
+        "Roll no": 3,
+        "Name": "ptyu",
+        "Marks": {
+            "Physics": 35,
+            "Chemestry": 67,
+            "Maths": 89
+        },
+        "Attendance": 4
+    },
+    {
+        "Roll no": 4,
+        "Name": "py",
+        "Marks": {
+            "Physics": 67,
+            "Chemestry": 78,
+            "Maths": 78
+        },
+        "Attendance": 6
+    }
+]

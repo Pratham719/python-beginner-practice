@@ -1,0 +1,96 @@
+{
+  "easy": [
+    { "id": 1, "question": "What is Python?", "options": { "A": "Hardware", "B": "Programming Language", "C": "OS", "D": "Browser" }, "answer": "B" },
+    { "id": 2, "question": "Which symbol is used for comments?", "options": { "A": "//", "B": "/* */", "C": "#", "D": "--" }, "answer": "C" },
+    { "id": 3, "question": "Output of print(2+3)?", "options": { "A": "23", "B": "5", "C": "Error", "D": "None" }, "answer": "B" },
+    { "id": 4, "question": "Keyword to define function?", "options": { "A": "fun", "B": "define", "C": "def", "D": "function" }, "answer": "C" },
+    { "id": 5, "question": "Which is mutable?", "options": { "A": "tuple", "B": "list", "C": "string", "D": "int" }, "answer": "B" },
+    { "id": 6, "question": "len('Python')?", "options": { "A": "5", "B": "6", "C": "7", "D": "Error" }, "answer": "B" },
+    { "id": 7, "question": "Loop with fixed iterations?", "options": { "A": "while", "B": "for", "C": "if", "D": "break" }, "answer": "B" },
+    { "id": 8, "question": "Output of type(10)?", "options": { "A": "int", "B": "float", "C": "str", "D": "bool" }, "answer": "A" },
+    { "id": 9, "question": "Keyword to stop loop?", "options": { "A": "exit", "B": "stop", "C": "break", "D": "pass" }, "answer": "C" },
+    { "id": 10, "question": "Python file extension?", "options": { "A": ".pt", "B": ".py", "C": ".pyt", "D": ".python" }, "answer": "B" },
+
+    { "id": 11, "question": "Output of print(True+1)?", "options": { "A": "True1", "B": "2", "C": "Error", "D": "1" }, "answer": "B" },
+    { "id": 12, "question": "Output of bool(1)?", "options": { "A": "False", "B": "0", "C": "True", "D": "Error" }, "answer": "C" },
+    { "id": 13, "question": "Which stores multiple values?", "options": { "A": "int", "B": "float", "C": "list", "D": "bool" }, "answer": "C" },
+    { "id": 14, "question": "Output of print('A'*3)?", "options": { "A": "A3", "B": "AAA", "C": "Error", "D": "A A A" }, "answer": "B" },
+    { "id": 15, "question": "Which is logical operator?", "options": { "A": "&", "B": "and", "C": "|", "D": "+" }, "answer": "B" },
+    { "id": 16, "question": "Output of print(10//3)?", "options": { "A": "3.3", "B": "3", "C": "4", "D": "Error" }, "answer": "B" },
+    { "id": 17, "question": "Which converts string to int?", "options": { "A": "str()", "B": "float()", "C": "int()", "D": "bool()" }, "answer": "C" },
+    { "id": 18, "question": "Output of print(len([]))?", "options": { "A": "0", "B": "1", "C": "Error", "D": "None" }, "answer": "A" },
+    { "id": 19, "question": "Which is immutable?", "options": { "A": "list", "B": "set", "C": "tuple", "D": "dict" }, "answer": "C" },
+    { "id": 20, "question": "Output of print(5==5)?", "options": { "A": "True", "B": "False", "C": "5", "D": "Error" }, "answer": "A" }
+  ],
+
+  "medium": [
+    { "id": 21, "question": "Output of print(range(3))?", "options": { "A": "[0,1,2]", "B": "range(0,3)", "C": "(0,1,2)", "D": "Error" }, "answer": "B" },
+    { "id": 22, "question": "range(1,5) generates?", "options": { "A": "1 to 5", "B": "0 to 4", "C": "1 to 4", "D": "0 to 5" }, "answer": "C" },
+    { "id": 23, "question": "Output of print(list(range(3)))?", "options": { "A": "[1,2,3]", "B": "[0,1,2]", "C": "[0,1,2,3]", "D": "Error" }, "answer": "B" },
+    { "id": 24, "question": "What does append() do?", "options": { "A": "Remove", "B": "Add at end", "C": "Sort", "D": "Delete" }, "answer": "B" },
+    { "id": 25, "question": "Output of print(bool([]))?", "options": { "A": "True", "B": "False", "C": "[]", "D": "Error" }, "answer": "B" },
+
+    { "id": 26, "question": "Output: x=10; print(f\"i{x}\")", "options": { "A": "i x", "B": "i10", "C": "10i", "D": "Error" }, "answer": "B" },
+    { "id": 27, "question": "Output of print(3>2 and 2>5)?", "options": { "A": "True", "B": "False", "C": "Error", "D": "None" }, "answer": "B" },
+    { "id": 28, "question": "len({1,2,2,3})?", "options": { "A": "4", "B": "3", "C": "2", "D": "Error" }, "answer": "B" },
+    { "id": 29, "question": "Output of print(type(()))?", "options": { "A": "list", "B": "tuple", "C": "set", "D": "dict" }, "answer": "B" },
+    { "id": 30, "question": "Which handles exceptions?", "options": { "A": "error", "B": "try", "C": "catch", "D": "handle" }, "answer": "B" },
+
+    { "id": 31, "question": "Output of print(10%3)?", "options": { "A": "3", "B": "1", "C": "0", "D": "Error" }, "answer": "B" },
+    { "id": 32, "question": "Output of print(not 0)?", "options": { "A": "True", "B": "False", "C": "0", "D": "Error" }, "answer": "A" },
+    { "id": 33, "question": "Which is false value?", "options": { "A": "1", "B": "'0'", "C": "[]", "D": "'False'" }, "answer": "C" },
+    { "id": 34, "question": "Output of print(2**3)?", "options": { "A": "6", "B": "8", "C": "9", "D": "Error" }, "answer": "B" },
+    { "id": 35, "question": "What does pass do?", "options": { "A": "Stop", "B": "Skip", "C": "Nothing", "D": "Error" }, "answer": "C" },
+
+    { "id": 36, "question": "Output of print(type(None))?", "options": { "A": "None", "B": "NoneType", "C": "null", "D": "Error" }, "answer": "B" },
+    { "id": 37, "question": "Output of print('5'+ '5')?", "options": { "A": "10", "B": "55", "C": "Error", "D": "5 5" }, "answer": "B" },
+    { "id": 38, "question": "len(' ')?", "options": { "A": "0", "B": "1", "C": "Error", "D": "None" }, "answer": "B" },
+    { "id": 39, "question": "Which creates empty set?", "options": { "A": "{}", "B": "set()", "C": "[]", "D": "()" }, "answer": "B" },
+    { "id": 40, "question": "Output of print(5!=5)?", "options": { "A": "True", "B": "False", "C": "Error", "D": "None" }, "answer": "B" }
+  ],
+
+  "hard": [
+    { "id": 41, "question": "Output: x=10; print(f\"i{x}\")", "options": { "A": "i 10", "B": "i10", "C": "10", "D": "Error" }, "answer": "B" },
+    { "id": 42, "question": "Output of print([1,2]*2)?", "options": { "A": "[2,4]", "B": "[1,2,1,2]", "C": "Error", "D": "[1,2]" }, "answer": "B" },
+    { "id": 43, "question": "Output of print(0==False)?", "options": { "A": "True", "B": "False", "C": "Error", "D": "None" }, "answer": "A" },
+    { "id": 44, "question": "Output of print(bool('False'))?", "options": { "A": "False", "B": "True", "C": "Error", "D": "0" }, "answer": "B" },
+    { "id": 45, "question": "len({})?", "options": { "A": "0", "B": "1", "C": "Error", "D": "None" }, "answer": "A" },
+
+    { "id": 46, "question": "Output of print(type(3/2))?", "options": { "A": "int", "B": "float", "C": "double", "D": "Error" }, "answer": "B" },
+    { "id": 47, "question": "Output of print(10>5>2)?", "options": { "A": "True", "B": "False", "C": "Error", "D": "None" }, "answer": "A" },
+    { "id": 48, "question": "Which key type allowed in dict?", "options": { "A": "list", "B": "set", "C": "tuple", "D": "dict" }, "answer": "C" },
+    { "id": 49, "question": "Output of print({1,2,3}&{2,3})?", "options": { "A": "{1}", "B": "{2,3}", "C": "{3}", "D": "Error" }, "answer": "B" },
+    { "id": 50, "question": "Output of print(sum(range(5)))?", "options": { "A": "15", "B": "10", "C": "5", "D": "Error" }, "answer": "B" },
+
+    { "id": 51, "question": "Output of print('abc'[::-1])?", "options": { "A": "abc", "B": "cba", "C": "Error", "D": "None" }, "answer": "B" },
+    { "id": 52, "question": "Output of print(5 and 0)?", "options": { "A": "5", "B": "0", "C": "True", "D": "False" }, "answer": "B" },
+    { "id": 53, "question": "Output of print(0 or 5)?", "options": { "A": "0", "B": "5", "C": "False", "D": "Error" }, "answer": "B" },
+    { "id": 54, "question": "Output of print([]==False)?", "options": { "A": "True", "B": "False", "C": "Error", "D": "None" }, "answer": "B" },
+    { "id": 55, "question": "Output of print(type({}))?", "options": { "A": "set", "B": "dict", "C": "tuple", "D": "list" }, "answer": "B" },
+
+    { "id": 56, "question": "Output of print(min([3,1,2]))?", "options": { "A": "3", "B": "1", "C": "2", "D": "Error" }, "answer": "B" },
+    { "id": 57, "question": "Output of print(bool(None))?", "options": { "A": "True", "B": "False", "C": "None", "D": "Error" }, "answer": "B" },
+    { "id": 58, "question": "Output of print(type(lambda x:x))?", "options": { "A": "function", "B": "lambda", "C": "object", "D": "Error" }, "answer": "A" },
+    { "id": 59, "question": "Output of print(2<3<4)?", "options": { "A": "True", "B": "False", "C": "Error", "D": "None" }, "answer": "A" },
+    { "id": 60, "question": "Which overwrites file?", "options": { "A": "r", "B": "a", "C": "w", "D": "x" }, "answer": "C" }
+  ],
+
+  "super_hard": [
+    { "id": 61, "question": "Output: x=[1,2,3]; y=x; y.append(4); print(x)", "options": { "A": "[1,2,3]", "B": "[1,2,3,4]", "C": "Error", "D": "None" }, "answer": "B" },
+    { "id": 62, "question": "Output of print(id(10)==id(10))?", "options": { "A": "True", "B": "False", "C": "Error", "D": "None" }, "answer": "A" },
+    { "id": 63, "question": "Output of print({}.get('a',5))?", "options": { "A": "None", "B": "KeyError", "C": "5", "D": "Error" }, "answer": "C" },
+    { "id": 64, "question": "Output of print(type((1)))?", "options": { "A": "tuple", "B": "int", "C": "set", "D": "Error" }, "answer": "B" },
+    { "id": 65, "question": "Output of print(type((1,)))?", "options": { "A": "tuple", "B": "int", "C": "set", "D": "Error" }, "answer": "A" },
+    {"id":81,"question":"Output: print(10 is 10)","options":{"A":"True","B":"False","C":"Error","D":"None"},"answer":"A"},
+    {"id":82,"question":"Output: print(256 is 256)","options":{"A":"True","B":"False","C":"Error","D":"None"},"answer":"A"},
+    {"id":83,"question":"Output: print(257 is 257)","options":{"A":"True","B":"False","C":"Error","D":"None"},"answer":"A"},
+    {"id":88,"question":"Output: print(1 == True)","options":{"A":"True","B":"False","C":"Error","D":"None"},"answer":"A"},
+    {"id":89,"question":"Output: print(True + True + False)","options":{"A":"2","B":"3","C":"1","D":"Error"},"answer":"A"},
+    {"id":90,"question":"Output: print(type(type(10)))","options":{"A":"int","B":"type","C":"object","D":"Error"},"answer":"B"},
+    {"id":91,"question":"Output: print([].append(1))","options":{"A":"[1]","B":"None","C":"Error","D":"1"},"answer":"B"},
+    {"id":92,"question":"Output: print({1,2,3} - {2})","options":{"A":"{2}","B":"{1,3}","C":"Error","D":"{}"},"answer":"B"},
+    {"id":93,"question":"Output: print(len({1:'a',2:'b',2:'c'}))","options":{"A":"3","B":"2","C":"1","D":"Error"},"answer":"B"},
+    {"id":94,"question":"Output: print((1,2)+(3,4))","options":{"A":"(1,2,3,4)","B":"Error","C":"[1,2,3,4]","D":"None"},"answer":"A"},
+    {"id":95,"question":"Output: print(5 < 4 == 4)","options":{"A":"True","B":"False","C":"Error","D":"None"},"answer":"B"}
+  ]
+}
