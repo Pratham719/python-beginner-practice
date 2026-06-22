@@ -3,6 +3,4 @@ sum =sum(tup)
 average =sum /len(tup)
 print("Tuple : ",tup)
 print("Sum of Tuple :",sum)
-print("Average of tuple :",average)
-
-     
+print("Average of tuple :",average)    

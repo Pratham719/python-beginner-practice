@@ -1,14 +1,14 @@
 # while
 # i=100  # i is iterator
-# while i>=1: # this loop process is called iteration
+# while i>=1: 
 #     print(i)
 #     i-=1
     
-
-# i=1  # i is iterator
-# while i<=100: # this loop process is called iteration
-#     print(i)
-#     i+=1 
+# Repeating execution of loop is called iteration
+i=1  
+while i<=10: 
+    print(i)
+    i+=1 
 
 
 # n=int(input("Enter the value of a table :"))
@@ -18,7 +18,9 @@
 #     print(f"{n} x {i} = {ans}")
 #     i+=1
 
-# list1=[] #when we go in list,dict etc one by one ,this process called traverse
+# Traversing list elements one by one
+
+# list1=[]
 # i=1
 # while i<=10:
 #     list1.append(i*i)
@@ -35,7 +37,7 @@
 #         print("Found at index",i)
 #     i+=1    
 
-# break
+# 1.break
 i=1
 while i<=5:
     print(i)
@@ -43,7 +45,7 @@ while i<=5:
         break
     i+=1           
     
-# continue
+# 2.continue
 i=1
 while i<=5:
     

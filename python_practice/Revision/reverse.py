@@ -6,4 +6,4 @@ while(t>0):
     rev=rev*10+d
     t=t//10
 
-print("Revrsed value :",rev)
+print("Reversed value :",rev)
