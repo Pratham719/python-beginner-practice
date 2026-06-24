@@ -9,6 +9,7 @@ for i in range(n):
     arr.append(val)
 print(arr)
 min=max=arr[0]
+
 for i in range(n):
     if arr[0]>arr[i]:
         min=arr[i]
